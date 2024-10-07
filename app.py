@@ -1,5 +1,5 @@
 import streamlit as st
-from sympy.physics.units import time
+# from sympy.physics.units import time
 
 from main import generate_ai_video
 
@@ -27,7 +27,7 @@ if st.button("Generate Video"):
         for i in range(100):
             # Simulate progress (replace with actual progress updates)
             progress_bar.progress(i + 1)
-            time.sleep(0.1)
+            # time.sleep(0.1)
 
         st.video(output_file)
     else:
