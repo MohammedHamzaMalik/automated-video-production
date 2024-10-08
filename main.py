@@ -21,3 +21,6 @@ def generate_ai_video(script, output_file, is_vertical=True):
 # Example usage
 script = "Artificial intelligence is revolutionizing industries. It has applications in healthcare, finance, and education."
 generate_ai_video(script, "ai_video.mp4", is_vertical=True)
+
+print("VIdeo created")
+__all__ = ['generate_ai_video']

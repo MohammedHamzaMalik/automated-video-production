@@ -20,5 +20,8 @@ def generate_image(prompt, output_path, width=512, height=512):
     image.save(output_path)
     print(f"Image saved to {output_path}")
 
-for i, sentence in enumerate(processed_script):
-    generate_image(sentence, f"image_scene_{i+1}.png")
+# for i, sentence in enumerate(processed_script):
+#     generate_image(sentence, f"image_scene_{i+1}.png")
+
+print("Generating images done")
+__all__ = ['generate_image']

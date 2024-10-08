@@ -8,6 +8,9 @@ def process_script(script_input):
     cleaned_sentences = [sentence.strip() for sentence in sentences]
     return cleaned_sentences
 
-script = "Artificial intelligence is revolutionizing industries. It has applications in healthcare, finance, and education."
-processed_script = process_script(script)
-print(processed_script)
+# script = "Artificial intelligence is revolutionizing industries. It has applications in healthcare, finance, and education."
+# processed_script = process_script(script)
+# print(processed_script)
+
+print("Script processing done")
+__all__ = ['process_script']

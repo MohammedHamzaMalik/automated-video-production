@@ -16,7 +16,10 @@ def create_video(script, image_files, audio_files, output_file, is_vertical=True
     final_clip.write_videofile(output_file, fps=24)
 
 
-image_files = [f"image_scene_{i + 1}.png" for i in range(len(processed_script))]
-audio_files = [f"voiceover_scene_{i + 1}.mp3" for i in range(len(processed_script))]
+# image_files = [f"image_scene_{i + 1}.png" for i in range(len(processed_script))]
+# audio_files = [f"voiceover_scene_{i + 1}.mp3" for i in range(len(processed_script))]
 
-create_video(processed_script, image_files, audio_files, "output_video.mp4", is_vertical=True)
+# create_video(processed_script, image_files, audio_files, "output_video.mp4", is_vertical=True)
+
+print("Video creating")
+__all__ = ['create_video']
