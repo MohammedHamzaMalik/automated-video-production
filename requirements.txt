@@ -1,0 +1,9 @@
+gtts
+streamlit
+nltk
+torch
+diffusers
+transformers
+accelerate
+moviepy
+Pillow
