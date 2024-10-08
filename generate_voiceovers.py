@@ -1,4 +1,4 @@
-from script_processing import processed_script
+from script_processing import process_script
 from gtts import gTTS
 
 def generate_voiceover(text, language='en', output_file='voiceover.mp3'):

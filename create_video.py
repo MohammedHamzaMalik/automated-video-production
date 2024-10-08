@@ -1,5 +1,4 @@
 from moviepy.editor import *
-from script_processing import processed_script
 
 def create_video(script, image_files, audio_files, output_file, is_vertical=True):
     clips = []

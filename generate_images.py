@@ -1,6 +1,5 @@
 import torch
 from diffusers import StableDiffusionPipeline
-from script_processing import processed_script
 from config import MODEL_ID, DEVICE
 
 def load_stable_diffusion_model():
